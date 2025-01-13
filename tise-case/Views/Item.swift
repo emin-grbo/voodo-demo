@@ -21,7 +21,10 @@ struct Item: View {
               }
             }
             .clipShape(
-              RoundedRectangle(cornerRadius: 12, style: .continuous)
+              RoundedRectangle(
+                cornerRadius: Constants.cornerRadius,
+                style: .continuous
+              )
             )
             .clipped()
 
