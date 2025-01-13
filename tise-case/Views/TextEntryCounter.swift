@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct TextEntryWithCounter: View {
+struct TextEntryCounter: View {
   let placeholder: String
   let maxCount: Int
   @Binding var text: String
