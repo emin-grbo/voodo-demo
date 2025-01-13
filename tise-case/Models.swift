@@ -1,7 +1,7 @@
 import Foundation
 
 struct TiseResponse: Decodable {
-  let listings: [Listing]
+  var listings: [Listing]
   let categories: [Category]
 }
 
@@ -29,10 +29,17 @@ struct Owner: Codable {
     let picture: String
 }
 
-import Foundation
-
 struct Category: Identifiable, Codable, Hashable {
     let id: String           // Unique identifier (e.g., "wearables.clothes.jackets")
     let title: String        // Display title (e.g., "Jackets")
     let icon: String         // Icon URL or local file path
+}
+
+enum Size: String, CaseIterable {
+  case XS = "XS"
+  case S = "S"
+  case M = "M"
+  case L = "L"
+  case XL = "XL"
+  case notApplicable = "Not Applicable"
 }

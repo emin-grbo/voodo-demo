@@ -11,11 +11,13 @@ struct AddTise: View {
   @State private var price: String = ""
   @State private var description: String = ""
   @State private var address: String = ""
-  @State private var category: Category = Constants.categoryPlaceholder
+  @State private var selectedCategory: Category = Constants.categoryPlaceholder
+  @State private var selectedSize: Size = .notApplicable
   @State private var selectedImage: UIImage? = nil
   @State private var selectedItem: PhotosPickerItem? = nil
   
   var body: some View {
+    ScrollView {
     VStack(alignment: .leading, spacing: 20) {
       Text("New Tise")
         .font(.largeTitle)
@@ -43,44 +45,45 @@ struct AddTise: View {
       }
       
       // MARK: Photo selector/preview
-          if let image = selectedImage {
-            Image(uiImage: image)
-              .resizable()
-              .scaledToFill()
-              .clipShape(RoundedRectangle(cornerRadius: Constants.cornerRadius,
-                                          style: .continuous))
-              .clipped()
-          } else {
-            PhotosPicker(
-              selection: $selectedItem,
-              matching: .images,
-              photoLibrary: .shared()
-            ) {
-              ZStack {
-                Color.tiseAccent
-                VStack {
-                  Image(systemName: "camera.fill")
-                    .font(.largeTitle)
-                    .padding()
-                  Text("Tap to select a cover photo")
-                }
-                .foregroundColor(.white)
-              }
-              .clipShape(RoundedRectangle(cornerRadius: Constants.cornerRadius,
-                                          style: .continuous))
+      if let image = selectedImage {
+        Image(uiImage: image)
+          .resizable()
+          .scaledToFill()
+          .clipShape(RoundedRectangle(cornerRadius: Constants.cornerRadius,
+                                      style: .continuous))
+          .clipped()
+      } else {
+        PhotosPicker(
+          selection: $selectedItem,
+          matching: .images,
+          photoLibrary: .shared()
+        ) {
+          ZStack {
+            Color.tiseAccent
+            VStack {
+              Image(systemName: "camera.fill")
+                .font(.largeTitle)
+                .padding()
+              Text("Tap to select a cover photo")
             }
-            .onChange(of: selectedItem) { newItem, _ in
-              if let newItem = newItem {
-                Task {
-                  if let data = try? await newItem.loadTransferable(type: Data.self),
-                     let uiImage = UIImage(data: data) {
-                    selectedImage = uiImage
-                  }
-                }
+            .foregroundColor(.white)
+          }
+          .frame(height: UIScreen.main.bounds.width * 0.7)
+          .clipShape(RoundedRectangle(cornerRadius: Constants.cornerRadius,
+                                      style: .continuous))
+        }
+        .onChange(of: selectedItem) { newItem, _ in
+          if let newItem = newItem {
+            Task {
+              if let data = try? await newItem.loadTransferable(type: Data.self),
+                 let uiImage = UIImage(data: data) {
+                selectedImage = uiImage
               }
             }
           }
-
+        }
+      }
+      
       // Description input
       TextEntryIcon(
         systemImage: "pencil.tip.crop.circle.fill",
@@ -92,24 +95,52 @@ struct AddTise: View {
       TextEntryIcon(
         systemImage: "location.circle.fill",
         placeholder: "Address",
-        text: $description
+        text: $address
       )
       
       // Category picker
       HStack {
         Image(systemName: "folder.circle.fill")
-        Picker(selection: $category, label: Text("Category")) {
+        Picker(selection: $selectedCategory, label: Text("Category")) {
           ForEach(observable.categories, id: \.self) { category in
             Text(category.title)
               .tag(category)
           }
         }
         .pickerStyle(MenuPickerStyle())
+        .tint(Color.tiseAccent)
       }
       
-      Spacer()
+      // Size picker
+      HStack {
+        Image(systemName: "folder.circle.fill")
+        Picker(selection: $selectedSize, label: Text("Category")) {
+          ForEach(Size.allCases, id: \.self) { size in
+            Text(size.rawValue)
+              .tag(size)
+          }
+        }
+        .pickerStyle(MenuPickerStyle())
+        .tint(Color.tiseAccent)
+      }
+      
+      Button("Add Tise") {
+        if observable.addListing(
+          title: title,
+          description: description,
+          size: selectedSize,
+          category: selectedCategory,
+          price: price
+        ) {
+          title = ""
+        } else {
+          fatalError()
+        }
+      }
+      .buttonStyle(TiseRoundedButtonStyle())
     }
     .padding()
+  }
   }
 }
 
