@@ -27,7 +27,7 @@ Another great benefit of the VOODO is the ability to make changes fast. Once the
 In this app I had some major changes to the Data layer in the very end, and thanks to this architecture, it took me just a few minutes to adapt my approach. (It was due to the fact that JSON needed to be modifed separately from the original loading method)
 
 ## Networking
-As the case had a .json delivery, I asumed it would be benefocial working with this JSON as if working with an external API. I created **TiseAPI** which had methods similar to a regular networking class, but only if you look at it from the outside.
+As the case had a .json delivery, I asumed it would be beneficial working with this JSON as if working with an external API. I created **TiseAPI** which had methods similar to a regular networking class, but only if you look at it from the outside.
 
 Inside it interacted with the local JSON ans stored the changes right on the device.
 
@@ -38,7 +38,7 @@ I wish I had time to define the protocols and make it even more clean, but time 
 ## The good ✅
 What I believe I did well(details):
 - [X] Liking is only done when user dismisses the screen
-- [X] The way TiseAPI works, allowing for future switch to remote Networking easy
+- [X] The way TiseAPI works, allowing for future switch to remote Networking easily
 - [X] Used new API from Apple for PhotoPicker
 - [X] General layout and design
 - [X] Handling sizes
