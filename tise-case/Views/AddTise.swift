@@ -11,9 +11,9 @@ struct AddTise: View {
   @State private var price: String = ""
   @State private var description: String = ""
   @State private var address: String = ""
-  @State private var category: Category = Category(id: "", title: "Select a category", icon: "no icon")
+  @State private var category: Category = Constants.categoryPlaceholder
   @State private var selectedImage: UIImage? = nil
-  @State private var showImagePicker = false
+  @State private var selectedItem: PhotosPickerItem? = nil
   
   var body: some View {
     VStack(alignment: .leading, spacing: 20) {
@@ -22,13 +22,13 @@ struct AddTise: View {
         .padding(.top)
         .bold()
       
-      TextEntryWithCounter(
+      TextEntryCounter(
         placeholder: "Title",
         maxCount: 20,
         text: $title
       )
       
-      TextEntryWithCounter(
+      TextEntryCounter(
         placeholder: "Detail",
         maxCount: 20,
         text: $detail
@@ -38,60 +38,70 @@ struct AddTise: View {
         TextField("Price", text: $price)
           .keyboardType(.numberPad)
           .textFieldStyle(RoundedBorderTextFieldStyle())
-        Text("NOK")
+        Text(Constants.defaultCurrency)
           .foregroundColor(.gray)
       }
       
-      // Image picker
-      Button(action: {
-        showImagePicker = true
-      }) {
-        ZStack {
-          
-          Color.tiseAccent
-            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-          
+      // MARK: Photo selector/preview
           if let image = selectedImage {
             Image(uiImage: image)
               .resizable()
               .scaledToFill()
-              .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+              .clipShape(RoundedRectangle(cornerRadius: Constants.cornerRadius,
+                                          style: .continuous))
               .clipped()
           } else {
-            VStack {
-              Image(systemName: "camera.fill")
-                .font(.largeTitle)
-                .padding()
-              Text("Tap to select a photo")
+            PhotosPicker(
+              selection: $selectedItem,
+              matching: .images,
+              photoLibrary: .shared()
+            ) {
+              ZStack {
+                Color.tiseAccent
+                VStack {
+                  Image(systemName: "camera.fill")
+                    .font(.largeTitle)
+                    .padding()
+                  Text("Tap to select a cover photo")
+                }
+                .foregroundColor(.white)
+              }
+              .clipShape(RoundedRectangle(cornerRadius: Constants.cornerRadius,
+                                          style: .continuous))
             }
-            .foregroundColor(.white)
+            .onChange(of: selectedItem) { newItem, _ in
+              if let newItem = newItem {
+                Task {
+                  if let data = try? await newItem.loadTransferable(type: Data.self),
+                     let uiImage = UIImage(data: data) {
+                    selectedImage = uiImage
+                  }
+                }
+              }
+            }
           }
-        }
-      }
-      .sheet(isPresented: $showImagePicker) {
-        ImagePicker(image: $selectedImage)
-      }
-      
+
       // Description input
-      HStack {
-        Image(systemName: "pencil.tip.crop.circle.fill")
-        TextField("Beskrivelse", text: $description)
-          .textFieldStyle(RoundedBorderTextFieldStyle())
-      }
-      
+      TextEntryIcon(
+        systemImage: "pencil.tip.crop.circle.fill",
+        placeholder: "Description",
+        text: $description
+      )
+#warning("move to constants?")
       // Address input
-      HStack {
-        Image(systemName: "location.circle.fill")
-        TextField("Adresse", text: $address)
-          .textFieldStyle(RoundedBorderTextFieldStyle())
-      }
+      TextEntryIcon(
+        systemImage: "location.circle.fill",
+        placeholder: "Address",
+        text: $description
+      )
       
       // Category picker
       HStack {
-        Image(systemName: "folder")
-        Picker(selection: $category, label: Text("Kategori")) {
+        Image(systemName: "folder.circle.fill")
+        Picker(selection: $category, label: Text("Category")) {
           ForEach(observable.categories, id: \.self) { category in
             Text(category.title)
+              .tag(category)
           }
         }
         .pickerStyle(MenuPickerStyle())
@@ -100,38 +110,6 @@ struct AddTise: View {
       Spacer()
     }
     .padding()
-  }
-}
-
-struct ImagePicker: UIViewControllerRepresentable {
-  @Binding var image: UIImage?
-  
-  func makeCoordinator() -> Coordinator {
-    Coordinator(self)
-  }
-  
-  func makeUIViewController(context: Context) -> UIImagePickerController {
-    let picker = UIImagePickerController()
-    picker.delegate = context.coordinator
-    picker.sourceType = .photoLibrary
-    return picker
-  }
-  
-  func updateUIViewController(_ uiViewController: UIImagePickerController, context: Context) {}
-  
-  class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
-    let parent: ImagePicker
-    
-    init(_ parent: ImagePicker) {
-      self.parent = parent
-    }
-    
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
-      if let uiImage = info[.originalImage] as? UIImage {
-        parent.image = uiImage
-      }
-      picker.dismiss(animated: true)
-    }
   }
 }
 

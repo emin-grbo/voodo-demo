@@ -22,5 +22,6 @@ class MainObservable: ObservableObject {
     let fetchedData = api.loadLocalData()
     listings = fetchedData?.listings ?? []
     categories = fetchedData?.categories ?? []
+    categories.append(Constants.categoryPlaceholder)
   }
 }
