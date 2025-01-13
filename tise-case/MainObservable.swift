@@ -8,7 +8,7 @@ class MainObservable: ObservableObject {
   
   // MARK: Published Properties
   @Published var listings: [Listing] = []
-  @Published var categories: [Category] = []
+  var categories: [Category] = []
   @Published var isError: Bool = false
   @Published var errorMessage: String = "Error Occured"
   

@@ -1,8 +1,8 @@
 import Foundation
 
-struct TiseResponse: Decodable {
+struct TiseResponse: Codable {
   var listings: [Listing]
-  let categories: [Category]
+  var categories: [Category]?
 }
 
 struct Listing: Identifiable, Codable {

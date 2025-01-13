@@ -19,6 +19,8 @@ struct Item: View {
                 Image(systemName: "photo.badge.exclamationmark")
                   .foregroundStyle(.white)
               }
+              .frame(width: baseSize,
+                     height: baseSize * 1.2)
             }
             .clipShape(
               RoundedRectangle(

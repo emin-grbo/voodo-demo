@@ -41,8 +41,13 @@ class TiseAPI {
       do {
           let encoder = JSONEncoder()
           encoder.outputFormatting = .prettyPrinted
-        let data = try encoder.encode(["listings": data.listings])
-          try data.write(to: fileURL)
+        let newData = TiseResponse(listings: data.listings,
+                                   categories: data.categories)
+        let encodedData = try encoder.encode(newData)
+//        let newData = try encoder.encode(["listings": data.listings])
+//        let newData = try encoder.encode(["categories": data.categories])
+          try encodedData.write(to: fileURL)
+        print(try JSONDecoder().decode(TiseResponse.self, from: encodedData))
       } catch {
         throw TiseError.saveError(description: "Failed to save JSON file: \(error)")
       }
