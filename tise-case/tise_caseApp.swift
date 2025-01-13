@@ -1,17 +1,15 @@
-//
-//  tise_caseApp.swift
-//  tise-case
-//
-//  Created by emin on 13/01/2025.
-//
-
 import SwiftUI
 
 @main
 struct tise_caseApp: App {
+  
+  @StateObject
+  var observable: MainObservable = MainObservable()
+  
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          TiseHomeView()
+            .environmentObject(observable)
         }
     }
 }
