@@ -12,4 +12,13 @@ struct Constants {
   // base non-selected category
   static let categoryPlaceholder = Category(id: "0", title: "Select a category", icon: "no icon"
   )
+  // base local owner (due to not having the ability to make a custom one)
+  static let hardcodedOwner = Owner(
+    id: "emin.test.id",
+    username: "localEmin",
+    name: "local",
+    picture: "https://tise-static.telenorcdn.net/profile-pictures/5addf35ab461be00157d2e83/26ae2353-bdcf-47f2-b579-67f0e9b4b31f"
+  )
+  // max count for entry
+  static let maxCharCount = 20
 }

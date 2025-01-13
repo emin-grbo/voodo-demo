@@ -2,6 +2,9 @@ import SwiftUI
 
 struct ItemList: View {
   
+  @EnvironmentObject
+  var observable: MainObservable
+  
   var columns: [GridItem] {
     Array(repeating: GridItem(.flexible()), count:  Constants.columnCount)
   }
@@ -12,16 +15,17 @@ struct ItemList: View {
   var body: some View {
     ScrollView {
       LazyVGrid(columns: columns, spacing: 16) {
-          ForEach(listings.sorted {
-              let formatter = ISO8601DateFormatter()
-              guard let date1 = formatter.date(from: $0.createdAt),
-                    let date2 = formatter.date(from: $1.createdAt) else { return false }
-              return date1 > date2 // Newest first
-          }) { listing in
+          ForEach(listings) { listing in
               Item(listing: listing, baseSize: baseItemSize)
+              .onTapGesture {
+                observable.selectedItem = listing
+                observable.isShowingDetail.toggle()
+              }
           }
       }
-      .padding(.horizontal)
+      .sheet(isPresented: $observable.isShowingDetail) {
+        ItemDetail()
+      }
     }
     .navigationTitle("Listings")
   }

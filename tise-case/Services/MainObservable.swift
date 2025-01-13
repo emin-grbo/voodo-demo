@@ -6,9 +6,14 @@ class MainObservable: ObservableObject {
   // MARK: Services
   private var tiseAPI: TiseAPI?
   
+  // MARK: State Control
+  @Published var selectedTab: Tabs = .list
+  @Published var isShowingDetail = false
+  @Published var isShowingError = false
+  @Published var selectedItem: Listing?
+  
   // MARK: Published Properties
   @Published var listings: [Listing] = []
-  var categories: [Category] = []
   @Published var isError: Bool = false
   @Published var errorMessage: String = "Error Occured"
   
@@ -20,16 +25,28 @@ class MainObservable: ObservableObject {
     return (screenWidth - totalSpacing) / CGFloat(Constants.columnCount)
   }
   
+  var categories: [Category] = []
+  
   init(api: TiseAPI = TiseAPI()) {
     self.tiseAPI = api
-    fetchData()
+    refreshData()
   }
   
-  func fetchData() {
-    let fetchedData = tiseAPI?.loadLocalData()
-    listings = fetchedData?.listings ?? []
-    categories = fetchedData?.categories ?? []
-    categories.append(Constants.categoryPlaceholder)
+  func refreshData() {
+    do {
+      let fetchedData = try tiseAPI?.loadLocalData()
+      listings = fetchedData?.listings ?? []
+      categories = fetchedData?.categories ?? []
+      categories.append(Constants.categoryPlaceholder)
+    } catch let error as TiseError {
+      errorMessage = error.localizedDescription
+      isError.toggle()
+      print("⛔️ Failed to refresh data: \(errorMessage)")
+    } catch {
+      errorMessage = "Unexpected error: \(error.localizedDescription)"
+      isError.toggle()
+      print("⛔️ Failed to refresh data: \(errorMessage)")
+    }
   }
   
   func addListing(
@@ -52,26 +69,32 @@ class MainObservable: ObservableObject {
       likeCount: 0,
       liked: false,
       sold: false,
-      owner: Owner(
-        id: "",
-        username: "local",
-        name: "local",
-        picture: "none"
-      ),
+      owner: Constants.hardcodedOwner,
       primaryImage: "",
-      secondaryImage: "local"
+      secondaryImage: ""
     )
     
     do {
       try tiseAPI?.addListing(newListing: newListing)
       print("✅ Added new Listing")
-      fetchData()
+      refreshData()
       return true
     } catch {
       errorMessage = error.localizedDescription
       isError.toggle()
       print("⛔️ Failed to add new Listing")
       return false
+    }
+  }
+
+  func toggleLiked(for id: String) {
+    do {
+      try tiseAPI?.toggleLiked(for: id)
+      refreshData()
+    } catch {
+      errorMessage = error.localizedDescription
+      isError.toggle()
+      print("⛔️ Failed to like item")
     }
   }
 }
