@@ -1,0 +1,1551 @@
+{
+    "listings": [
+        {
+            "id": "61a513e344a6d80098c0166e",
+            "createdAt": "2021-11-29T17:54:44.243Z",
+            "title": "Lace Tee",
+            "caption": "Vareprøve av Lace Tee 🖤 \nDenne kan kles opp og ned og du får kjøpt den til en veldig snill pris! Normal i størrelsen. #secondchance #holzweiler #tshirt",
+            "size": "XS",
+            "category": "wearables.clothes.tops",
+            "askingPrice": 500,
+            "currency": "NOK",
+            "likeCount": 27,
+            "liked": false,
+            "sold": false,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/221/200/300"
+        },
+        {
+            "id": "61a2523e9b4e8800979b842a",
+            "createdAt": "2021-11-27T15:43:58.763Z",
+            "title": "Veronica Stars",
+            "caption": "Vakker wrapkjole med nydelig strassbroderi. Kjolen har utringing og puffermer med rynkedetalj nederst på ermene. Den perfekte kjolen til sesongens selskaper og fester. Dette er en sample i størrelse Small, normal i størrelsen. Nypris 4200,- #secondchance #piatjelta #veronicadress",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 2500,
+            "currency": "NOK",
+            "likeCount": 2,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "6135f8331cafb900977e4c35",
+                "username": "piatjelta",
+                "name": "Pia Tjelta",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/639/200/300"
+        },
+        {
+            "id": "61a250de6276900097f00b87",
+            "createdAt": "2021-11-27T15:38:06.375Z",
+            "title": "Grace Spitafields",
+            "caption": "Grace short dress i printet Spitafields er altså så lekker 🤩 Tettsittende kjole med høy hals og lange armer. Dette er en vareprøve i størrelse Small som er helt normal i størrelsen. Av 100% Polyester. Nypris 1900,- #secondchance #bodycondress #piatjelta",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 1150,
+            "currency": "NOK",
+            "likeCount": 5,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "6135f8331cafb900977e4c35",
+                "username": "piatjelta",
+                "name": "Pia Tjelta",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/659/200/300"
+        },
+        {
+            "id": "61a24f9bc4afa20097ce7661",
+            "createdAt": "2021-11-27T15:32:44.428Z",
+            "title": "Joan Jaquard",
+            "caption": "Vi har fått inn en sample av Joan Jacquard! Kjolen har lang lengde og litt tyngde i stoffet som faller fint 🖤 Glidelås bak på ryggen og splitt fremme. Størrelse S, normal i størrelsen. Nypris 3600,- #secondchance #piatjelta #blackdress",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 2200,
+            "currency": "NOK",
+            "likeCount": 18,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "6135f8331cafb900977e4c35",
+                "username": "piatjelta",
+                "name": "Pia Tjelta",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/31/200/300"
+        },
+        {
+            "id": "61a24e640aa7a20097b03a7d",
+            "createdAt": "2021-11-27T15:27:32.606Z",
+            "title": "Ivy Blouse Black",
+            "caption": "Ivy er en utrolig flatterende bluse med fine detaljer 🖤 Denne er tidløs, og kommer til å bli brukt sesong etter sesong. Blusen er en vareprøve i størrelse S, normal i størrelsen. Laget av 100% viskose #secondchance #ivyblouse #piatjelta",
+            "size": "S",
+            "category": "wearables.clothes.blouses",
+            "askingPrice": 1100,
+            "currency": "NOK",
+            "likeCount": 30,
+            "liked": false,
+            "sold": false,
+            "owner": {
+                "id": "6135f8331cafb900977e4c35",
+                "username": "piatjelta",
+                "name": "Pia Tjelta",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/562/200/300"
+        },
+        {
+            "id": "61a24c02b43f880097607858",
+            "createdAt": "2021-11-27T15:17:22.368Z",
+            "title": "Grace Stars",
+            "caption": "Unik vareprøve fra AW20 kolleksjonen 🖤 Grace Stars er fantastisk fin med de dekorative perlene og figurnær fasong. I denne tar du jula med storm! Størrelse Small, normal i størrelsen. Nypris 3500,- #piatjelta #gracestars #secondchance",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 2100,
+            "currency": "NOK",
+            "likeCount": 6,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "6135f8331cafb900977e4c35",
+                "username": "piatjelta",
+                "name": "Pia Tjelta",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/249/200/300"
+        },
+        {
+            "id": "61a24a81e5c362009770848f",
+            "createdAt": "2021-11-27T15:10:58.219Z",
+            "title": "Kim Dress",
+            "caption": "Kim Dress er altså så lekker 🤩 Dette er en vareprøve av kjolen i glitrende sort fra AW19 sesongen. Kjolen har flatterende rysjer ved midjen som gir deg en lekker fasong. Denne er størrelse S og er helt normal i størrelsen. Nypris 3200,- #secondchance #nyttår #piatjelta",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 1900,
+            "currency": "NOK",
+            "likeCount": 6,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "6135f8331cafb900977e4c35",
+                "username": "piatjelta",
+                "name": "Pia Tjelta",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/330/200/300"
+        },
+        {
+            "id": "61a24856c4afa20097cd9574",
+            "createdAt": "2021-11-27T15:01:43.149Z",
+            "title": "Lily Jacquard",
+            "caption": "Lily Jaquard er en figurnær kort kjole i nydelig silkestretch jacquard 🖤\n\nDen har korte puffermer og utringning med en liten rynkedetalj. Kjolen har glidelås bak med hempe øverst, og avsluttes med en rysjet kappe nederst. Dette er en unik vareprøve som du får 40% avslag på 🕊 #secondchance #piatjelta",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 2300,
+            "currency": "NOK",
+            "likeCount": 5,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "6135f8331cafb900977e4c35",
+                "username": "piatjelta",
+                "name": "Pia Tjelta",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/619/200/300"
+        },
+        {
+            "id": "61a2478843f7e400991ae0b7",
+            "createdAt": "2021-11-27T14:58:16.380Z",
+            "title": "Nessi Blouse",
+            "caption": "Nessi Blouse i klassisk sort farge 🖤 I denne er du pyntet til alle anledninger! \nDette er en sample fra AW19 sesongen. Har en utrolig fin fasong.  Størrelse S og er normal i størrelsen. Av 100% polyester, nypris 1500,- #secondchance #piatjelta #bluse",
+            "size": "S",
+            "category": "wearables.clothes.blouses",
+            "askingPrice": 800,
+            "currency": "NOK",
+            "likeCount": 18,
+            "liked": false,
+            "sold": false,
+            "owner": {
+                "id": "6135f8331cafb900977e4c35",
+                "username": "piatjelta",
+                "name": "Pia Tjelta",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/19/200/300"
+        },
+        {
+            "id": "61a2472ad2d42f0099543e1e",
+            "createdAt": "2021-11-27T14:56:42.862Z",
+            "title": "Nessi Blouse Black",
+            "caption": "Nessi Blouse i klassisk sort farge 🖤 I denne er du pyntet til alle anledninger! \nDette er en sample fra AW19 sesongen. Har en utrolig fin fasong.  Størrelse S og er normal i størrelsen. Av 100% polyester, nypris 1500,- #secondchance#piatjelta",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 800,
+            "currency": "NOK",
+            "likeCount": 19,
+            "liked": false,
+            "sold": false,
+            "owner": {
+                "id": "6135f8331cafb900977e4c35",
+                "username": "piatjelta",
+                "name": "Pia Tjelta",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/141/200/300"
+        },
+        {
+            "id": "61a24610e5c36200976ff741",
+            "createdAt": "2021-11-27T14:52:00.792Z",
+            "title": "Audrey Dress",
+            "caption": "Audrey Dress er en helt magisk kjole 🖤 Kjolen faller ut i et nydelig langt skjørt med rysjer. Audrey Dress matcher perfekt med Daisy Pouch som vi har til salgs lenger nede i profilen. Denne vareprøven er størrelse Small og er helt normal i størrelsen. #audreydress #piatjelta #julekjole #secondchance",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 2900,
+            "currency": "NOK",
+            "likeCount": 40,
+            "liked": false,
+            "sold": false,
+            "owner": {
+                "id": "6135f8331cafb900977e4c35",
+                "username": "piatjelta",
+                "name": "Pia Tjelta",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/312/200/300"
+        },
+        {
+            "id": "61a244c892da31009824f062",
+            "createdAt": "2021-11-27T14:46:32.411Z",
+            "title": "Hayley Dress Short",
+            "caption": "Trenger du en tidløs festkjole? 🥳\nDette er en vareprøve av Hayley dress i kort variant. Kjolen rekker ned til midt på lårene, har flatterende fall og spenne i livet. Størrelse Small og er helt normal i størrelsen #secondchance #piatjelta #julekjole",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 1400,
+            "currency": "NOK",
+            "likeCount": 1,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "6135f8331cafb900977e4c35",
+                "username": "piatjelta",
+                "name": "Pia Tjelta",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/460/200/300"
+        },
+        {
+            "id": "61a2435f60f9e30097356209",
+            "createdAt": "2021-11-27T14:40:31.488Z",
+            "title": "Ivy Blouse",
+            "caption": "Vareprøve av Ivy Blouse i Daisy col Bordeaux print 🌹Nydelig bluse i myk kvalitet, med glidelås bak og fin detalj på brystet. Nypris 2500,-. Størrelse S og normal i størrelsen. #secondchance #piatjelta",
+            "size": "S",
+            "category": "wearables.clothes.blouses",
+            "askingPrice": 1500,
+            "currency": "NOK",
+            "likeCount": 3,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "6135f8331cafb900977e4c35",
+                "username": "piatjelta",
+                "name": "Pia Tjelta",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/71/200/300"
+        },
+        {
+            "id": "61a2410daa38ac0099303409",
+            "createdAt": "2021-11-27T14:30:38.089Z",
+            "title": "Jona Blouse",
+            "caption": "Vareprøve av denne flotte blusen 🖤 Jona Blouse i glitrende sort er perfekt til julens festligheter! Dette er en wrapbluse som er utrolig flatterende på. Blusen koster ordinært 1600,-. Størrelse Small og er normal i størrelsen #secondchance #nyttår #piatjelta",
+            "size": "S",
+            "category": "wearables.clothes.blouses",
+            "askingPrice": 1000,
+            "currency": "NOK",
+            "likeCount": 7,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "6135f8331cafb900977e4c35",
+                "username": "piatjelta",
+                "name": "Pia Tjelta",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/956/200/300"
+        },
+        {
+            "id": "61a24007fddd68009830c1f1",
+            "createdAt": "2021-11-27T14:26:15.556Z",
+            "title": "Jona Blouse",
+            "caption": "Vareprøve av denne flotte blusen 💖 Jona Blouse i fargen Fuchsia er perfekt til julens festligheter! Dette er en wrapbluse som er utrolig flatterende på. Blusen koster ordinært 1600,-. Størrelse Small og er normal i størrelsen #secondchance #nyttår #piatjelta",
+            "size": "S",
+            "category": "wearables.clothes.blouses",
+            "askingPrice": 1000,
+            "currency": "NOK",
+            "likeCount": 4,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "6135f8331cafb900977e4c35",
+                "username": "piatjelta",
+                "name": "Pia Tjelta",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/922/200/300"
+        },
+        {
+            "id": "61a23ed460f9e3009734d140",
+            "createdAt": "2021-11-27T14:21:09.806Z",
+            "title": "Iben Dress Fuchsia",
+            "caption": "Wow! Iben Dress er en lekker kjole i glitrende rosa 🤩 Kjolen er utrolig flatterende på. Dette er en vareprøve som du kan sikre deg til 40% avslag. Størrelse S, normal i størrelsen #secondchance #nyttårskjole #piatjelta",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 1200,
+            "currency": "NOK",
+            "likeCount": 13,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "6135f8331cafb900977e4c35",
+                "username": "piatjelta",
+                "name": "Pia Tjelta",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/12/200/300"
+        },
+        {
+            "id": "619d2b7aa3d3a20097cd2c3c",
+            "createdAt": "2021-11-23T17:57:15.161Z",
+            "title": "Navy Sweater",
+            "caption": "Marineblå genser i vakker ribbstrikk 💙 Genseren er størrelse M og er normal i størrelsen. Dette er en ubrukt vareprøve du kan klikke hjem til en snill pris #secondchance #genser #basic #holzweiler",
+            "size": "M",
+            "category": "wearables.clothes.sweaters",
+            "askingPrice": 700,
+            "currency": "NOK",
+            "likeCount": 15,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/547/200/300"
+        },
+        {
+            "id": "619d2a98bd0a33009797dd62",
+            "createdAt": "2021-11-23T17:53:28.477Z",
+            "title": "Guri Sweater",
+            "caption": "Basic genser med fin passform. Genseren er en sample fra tidligere kolleksjon 🖤 Genseren er av en bomullsblanding #secondchance #holzweiler",
+            "size": "M",
+            "category": "wearables.clothes.sweaters",
+            "askingPrice": 500,
+            "currency": "NOK",
+            "likeCount": 5,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/484/200/300"
+        },
+        {
+            "id": "619d29b6131f620098711449",
+            "createdAt": "2021-11-23T17:49:43.016Z",
+            "title": "Niste topp",
+            "caption": "HURRA! Vi selger en vareprøve av nydelige Niste topp 🖤 Denne genseren har en eksklusiv look med det fine mønsteret. Genseren er litt stretchy og passer XS-S. Nypris 1500,- #secondchance #holzweiler #sortbluse",
+            "size": "XS",
+            "category": "wearables.clothes.sweaters",
+            "askingPrice": 700,
+            "currency": "NOK",
+            "likeCount": 11,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/927/200/300"
+        },
+        {
+            "id": "619d28cb21a4180097416c34",
+            "createdAt": "2021-11-23T17:45:47.717Z",
+            "title": "Vanja Mesh Dress",
+            "caption": "Vanja er en sort kjole i mesh stoff med løs passform. Veldig fin over en sort innerkjole 🖤 Størrelse XS, passer XS-S #secondchance #holzweiler #meshdress",
+            "size": "XS",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 500,
+            "currency": "NOK",
+            "likeCount": 14,
+            "liked": false,
+            "sold": false,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/190/200/300"
+        },
+        {
+            "id": "619d27e1feb4c800996b2a19",
+            "createdAt": "2021-11-23T17:41:54.294Z",
+            "title": "Errant Dress",
+            "caption": "Oversized bomullskjole med splitt nede ved leggen. Tidløst basic plagg som kan kles opp og ned. Kjolen har en oversized look, passer M-XL #secondchance #holzweiler #blackdress",
+            "size": "L",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 700,
+            "currency": "NOK",
+            "likeCount": 13,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/625/200/300"
+        },
+        {
+            "id": "619d27337dc9a700982ffd36",
+            "createdAt": "2021-11-23T17:38:59.801Z",
+            "title": "Lace Tee",
+            "caption": "Vareprøve av Lace Tee 🖤 \nDenne kan kles opp og ned og du får kjøpt den til en veldig snill pris! Normal i størrelsen. #secondchance #holzweiler #tshirt",
+            "size": "XS",
+            "category": "wearables.clothes.tops",
+            "askingPrice": 500,
+            "currency": "NOK",
+            "likeCount": 13,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/883/200/300"
+        },
+        {
+            "id": "619d25f226e0b8009a098bdf",
+            "createdAt": "2021-11-23T17:33:38.374Z",
+            "title": "Primitive Shirt",
+            "caption": "Klassisk sort skjorte til herre! Den perfekte basic skjorte alle menn bør ha i skapet sitt! Denne er også superkul som oversized skjorte til dame 🥳 Selges til en veldig snill pris! Av 96% bomull og 4% elastan. #secondchance #holzweiler",
+            "size": "L",
+            "category": "wearables.clothes.shirts",
+            "askingPrice": 600,
+            "currency": "NOK",
+            "likeCount": 18,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/653/200/300"
+        },
+        {
+            "id": "619d258bbd0a330097973387",
+            "createdAt": "2021-11-23T17:31:55.325Z",
+            "title": "Primitive Shirt",
+            "caption": "Klassisk sort skjorte til herre! Den perfekte basic skjorte alle menn bør ha i skapet sitt! Denne er også superkul som oversized skjorte til dame 🥳 Selges til en veldig snill pris! Av 96% bomull og 4% elastan. #secondchance #holzweiler",
+            "size": "L",
+            "category": "wearables.clothes.shirts",
+            "askingPrice": 600,
+            "currency": "NOK",
+            "likeCount": 12,
+            "liked": false,
+            "sold": false,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/497/200/300"
+        },
+        {
+            "id": "619d240246520400983e0a90",
+            "createdAt": "2021-11-23T17:25:23.253Z",
+            "title": "Ingve Shirt",
+            "caption": "Superfin genser i nydelig vinrød farge. Denne er perfekt på vinteren og inneholder 43% ull. Passer like godt til festlige anledninger som til hverdags. #secondchance #holzweiler #sweater",
+            "size": "M",
+            "category": "wearables.clothes.sweaters",
+            "askingPrice": 800,
+            "currency": "NOK",
+            "likeCount": 21,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/53/200/300"
+        },
+        {
+            "id": "619d23269a2bb7009720ea9c",
+            "createdAt": "2021-11-23T17:21:43.050Z",
+            "title": "Jumpsuit",
+            "caption": "Vi er målløse, denne dressen er så rå 🤩 En helt unik vareprøve som du kan stikke av med til en utrolig snill pris på 800,-! Dressen er størrelse XS og skal være normal i størrelsen. Passer nok også en størrelse S om du ønsker den mindre oversized 🤍\n#secondchance #holzweiler #jumpsuit",
+            "size": "XS",
+            "category": "wearables.clothes.jumpsuits",
+            "askingPrice": 800,
+            "currency": "NOK",
+            "likeCount": 41,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/781/200/300"
+        },
+        {
+            "id": "619d2209a13527009aaa7d1a",
+            "createdAt": "2021-11-23T17:16:58.153Z",
+            "title": "Velur Dress",
+            "caption": "Nydelig kjole med rett fasong i velur 🖤 Denne er perfekt til jul! Kjolen rekker ned til ca midt på lårene. Størrelse S og helt normal i størrelsen. Dette er en vareprøve fra Holzweiles tidligere kolleksjon. #secondchance #holzweiler #velurkjole",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 800,
+            "currency": "NOK",
+            "likeCount": 19,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/606/200/300"
+        },
+        {
+            "id": "619d1e5721a41800974011c6",
+            "createdAt": "2021-11-23T17:01:11.811Z",
+            "title": "Skjorte 🤎",
+            "caption": "Herlig skjorte i en myk brunfarge 🤎 Superfin skjorte som er utrolig kledelig med den høye halsen. Herreskjorte i størrelse M, men er like fin som oversized skjorte til dame #secondchance \n#holzweiler #skjorte",
+            "size": "M",
+            "category": "wearables.clothes.shirts",
+            "askingPrice": 700,
+            "currency": "NOK",
+            "likeCount": 10,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/804/200/300"
+        },
+        {
+            "id": "619d1db4131f6200986f7b90",
+            "createdAt": "2021-11-23T16:58:28.649Z",
+            "title": "Skjorte",
+            "caption": "Herlig skjorte i en myk brunfarge 🤎 Denne mangler en knapp i halsen. Skjorten har rett fasong. Herreskjorte i størrelse M, men er like fin som oversized skjorte til dame #secondchance \n#holzweiler #skjorte",
+            "size": "M",
+            "category": "wearables.clothes.shirts",
+            "askingPrice": 500,
+            "currency": "NOK",
+            "likeCount": 16,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/993/200/300"
+        },
+        {
+            "id": "619d1c4a8edab10098addd58",
+            "createdAt": "2021-11-23T16:52:26.436Z",
+            "title": "Button Dress",
+            "caption": "Denne kjolen er så fin 🌟 Kjolen har dekorative knappen og V-hals. Den har en utrolig fin fasong som fanger midjen din også er den litt lengre bak enn fremme. Dette er en vareprøve fra tidligere kolleksjon som vi kun har en av! Størrelse XS og normal i størrelsen. Kjolen har lengde til ca midt på lårene #secondchance #holzweiler #julekjole",
+            "size": "XS",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 900,
+            "currency": "NOK",
+            "likeCount": 48,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/623/200/300"
+        },
+        {
+            "id": "619d193e7fb45a0097dd412f",
+            "createdAt": "2021-11-23T16:39:27.374Z",
+            "title": "Derma Dress",
+            "caption": "Derma er en nydelig sort kjole, perfekt til jul 🖤\nKjolen er glitrende i stoffet, har en smal fasong på overdelen og et nydelig stort skjørt som underdel. Den har glidelås på ryggen og er litt stretchy i stoffet. Normal i størrelsen og når ned til under kneet/leggene. #secondchance #julekjole #holzweiler",
+            "size": "XS",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 800,
+            "currency": "NOK",
+            "likeCount": 22,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/122/200/300"
+        },
+        {
+            "id": "619d1785cffdc700976ece9e",
+            "createdAt": "2021-11-23T16:32:05.521Z",
+            "title": "Mesh dress",
+            "caption": "Denne er så kul!\nFigurnær kjole i mesh-stoff. Denne er lekker å kobinere med en spagetti-stropp kjole over eller biker shorts og crop top under 🖤 Normal i størrelsen. Vareprøve uten feil som en #secondchance \n#holzweiler #meshdress",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 700,
+            "currency": "NOK",
+            "likeCount": 4,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/477/200/300"
+        },
+        {
+            "id": "619d1713465e1f009981c78f",
+            "createdAt": "2021-11-23T16:30:12.075Z",
+            "title": "Mesh Dress",
+            "caption": "Denne er så kul!\nFigurnær kjole i mesh-stoff. Denne er lekker å kobinere med en spagetti-stropp kjole over eller biker shorts og crop top under 🖤 Normal i størrelsen. Vareprøve uten feil som en #secondchance \n#holzweiler #meshdress",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 700,
+            "currency": "NOK",
+            "likeCount": 19,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/687/200/300"
+        },
+        {
+            "id": "619d158aecce4600984c2de1",
+            "createdAt": "2021-11-23T16:23:38.411Z",
+            "title": "Frog Top",
+            "caption": "Unik genser med en rå look! Frog Top er inspirert av ytterjakka vår 🥳 Superfin og kledelig genser. Rett fasong og normal i størrelse. #genser #secondchance #holzweiler",
+            "size": "XL",
+            "category": "wearables.clothes.sweaters",
+            "askingPrice": 500,
+            "currency": "NOK",
+            "likeCount": 23,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/579/200/300"
+        },
+        {
+            "id": "619d152fae0d5900985cd6d6",
+            "createdAt": "2021-11-23T16:22:07.584Z",
+            "title": "Frog Top",
+            "caption": "Unik genser med en rå look! Frog Top er inspirert av ytterjakka vår 🥳 Superfin og kledelig genser. Rett fasong og normal i størrelse. #genser #secondchance #holzweiler",
+            "size": "L",
+            "category": "wearables.clothes.sweaters",
+            "askingPrice": 550,
+            "currency": "NOK",
+            "likeCount": 11,
+            "liked": false,
+            "sold": false,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/939/200/300"
+        },
+        {
+            "id": "619d14c95bd6a60098a05dd1",
+            "createdAt": "2021-11-23T16:20:25.829Z",
+            "title": "Frog Top",
+            "caption": "Unik genser med en rå look! Frog Top er inspirert av ytterjakka vår 🥳 Superfin og kledelig genser. Normal i størrelse. #genser #secondchance #holzweiler",
+            "size": "XS",
+            "category": "wearables.clothes.sweaters",
+            "askingPrice": 500,
+            "currency": "NOK",
+            "likeCount": 13,
+            "liked": false,
+            "sold": false,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/92/200/300"
+        },
+        {
+            "id": "619d12614931120097eabaf2",
+            "createdAt": "2021-11-23T16:10:10.233Z",
+            "title": "Noritt Dress",
+            "caption": "Noritt Dress er en nydelig kjole i myk og stretchy kvalitet (80% viskose og 20% nylon). Kjolen former seg fint inntil kroppen og er superkul kombinert med høye boots og ullgenser 🤩 Dette er en vareprøve som fortjener en #secondchance Nypris 1800,-\n#holzweiler",
+            "size": "M",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 900,
+            "currency": "NOK",
+            "likeCount": 47,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/41/200/300"
+        },
+        {
+            "id": "619d111c4c7388009aec6eeb",
+            "createdAt": "2021-11-23T16:04:45.049Z",
+            "title": "Neem Dress",
+            "caption": "Frisk opp vintergarderoben med denne røde ullkjolen 🌸\nKjolen har en rett fasong som gjør den super å pakke seg inni på kalde dager ❄️Den har en lengde som når nedforbi knærne. Str S men stor i størrelse, passer XS - M #secondchance #ullkjole #holzweiler",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 900,
+            "currency": "NOK",
+            "likeCount": 44,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/108/200/300"
+        },
+        {
+            "id": "619d10b2cffdc700976df5d8",
+            "createdAt": "2021-11-23T16:02:58.361Z",
+            "title": "Neem Dress",
+            "caption": "Frisk opp vintergarderoben med denne røde ullkjolen 🌸\nKjolen har en rett fasong som gjør den super å pakke seg inni på kalde dager ❄️Den har en lengde som når nedforbi knærne. Str S men stor i størrelse, passer XS - M#secondchance #ullkjole #holzweiler",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 1000,
+            "currency": "NOK",
+            "likeCount": 43,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/757/200/300"
+        },
+        {
+            "id": "619cf9ac3d316000976b6424",
+            "createdAt": "2021-11-23T14:24:45.334Z",
+            "title": "Jade Jacket",
+            "caption": "WOW! Vi har fått inn en vareprøve av superlekre Jade Jacket 🤍\nJade er en sporty ytterjakke med stor lomme i front og avtagbar hette. \n\nDenne har vi kun en av i størrelse S, oversized modell som passer S-M. Materiale: 62% Bomull 35% Nylon 3% Spandex\n#secondchance #holzweiler #anorakk",
+            "size": "S",
+            "category": "wearables.clothes.jackets",
+            "askingPrice": 1800,
+            "currency": "NOK",
+            "likeCount": 30,
+            "liked": false,
+            "sold": false,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/955/200/300"
+        },
+        {
+            "id": "619cf799ae0d5900985928f4",
+            "createdAt": "2021-11-23T14:15:53.929Z",
+            "title": "Wool Bomberjacket",
+            "caption": "Klassisk bomberjakke med den kjente logoen på brystet! Jakken er størrelse XS og er normal i størrelsen. Laget av 70% ull og 30% polyester. Kan brukes både inne og ute 🖤#secondchance #bomberjakke #holzweiler",
+            "size": "XS",
+            "category": "wearables.clothes.jackets",
+            "askingPrice": 800,
+            "currency": "NOK",
+            "likeCount": 9,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/284/200/300"
+        },
+        {
+            "id": "619cf1f33d316000976a6397",
+            "createdAt": "2021-11-23T13:51:48.021Z",
+            "title": "Lenient Jumpsuit",
+            "caption": "Vi ELSKER denne jumpsuiten 🤩Denne er perfekt for julens festligheter. Behagelig med strikk i livet og peplum som gir deg timeglass-figur! Ubrukt arkivvare som ordinært koster 2500,-. Normal i størrelsen #holzweiler #secondchance #jumpsuit",
+            "size": "L",
+            "category": "wearables.clothes.jumpsuits",
+            "askingPrice": 800,
+            "currency": "NOK",
+            "likeCount": 10,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/330/200/300"
+        },
+        {
+            "id": "619cf18e49c15500974c9dd2",
+            "createdAt": "2021-11-23T13:50:06.770Z",
+            "title": "Lenient Jumpsuit",
+            "caption": "Vi ELSKER denne jumpsuiten 🤩Denne er perfekt for julens festligheter. Behagelig med strikk i livet og peplum som gir deg timeglass-figur! Ubrukt arkivvare som ordinært koster 2500,-. Normal i størrelsen #holzweiler #secondchance #jumpsuit",
+            "size": "M",
+            "category": "wearables.clothes.jumpsuits",
+            "askingPrice": 700,
+            "currency": "NOK",
+            "likeCount": 8,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/363/200/300"
+        },
+        {
+            "id": "619cf0f9a3d3a20097c5c6cf",
+            "createdAt": "2021-11-23T13:47:37.918Z",
+            "title": "Lenient Jumpsuit",
+            "caption": "Vi ELSKER denne jumpsuiten 🤩Denne er perfekt for julens festligheter. Behagelig med strikk i livet og peplum som gir deg timeglass-figur! Ubrukt arkivvare som ordinært koster 2500,-. Normal i størrelsen #holzweiler #secondchance #jumpsuit",
+            "size": "S",
+            "category": "wearables.clothes.jumpsuits",
+            "askingPrice": 800,
+            "currency": "NOK",
+            "likeCount": 7,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/414/200/300"
+        },
+        {
+            "id": "619cedc73d3160009769dab8",
+            "createdAt": "2021-11-23T13:34:00.212Z",
+            "title": "Citrin Canvas",
+            "caption": "Tidenes helårsjakke til nesten 70% avslag! 🤩\n\nCitrin Canvas er en parkas med smøring i livet, praktiske lommer og fine detaljer. Avtagbar hette. Jakken er normal i størrelsen. Materiale: 60% bomull og 40% polyester. Nypris 5500,-\n#parkas #ytterjakke #secondchance",
+            "size": "L",
+            "category": "wearables.clothes.jackets",
+            "askingPrice": 1100,
+            "currency": "NOK",
+            "likeCount": 35,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/232/200/300"
+        },
+        {
+            "id": "619ced37581bff00973c83d3",
+            "createdAt": "2021-11-23T13:31:36.323Z",
+            "title": "Citrin Canvas",
+            "caption": "Tidenes helårsjakke 🤩\n\nCitrin Canvas er en parkas med smøring i livet, praktiske lommer og fine detaljer. Avtagbar hette. Jakken er normal i størrelsen. Materiale: 60% bomull og 40% polyester. \n#parkas #ytterjakke #secondchance",
+            "size": "S",
+            "category": "wearables.clothes.jackets",
+            "askingPrice": 1100,
+            "currency": "NOK",
+            "likeCount": 60,
+            "liked": false,
+            "sold": false,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/397/200/300"
+        },
+        {
+            "id": "619cea66a3d3a20097c4f4fd",
+            "createdAt": "2021-11-23T13:19:35.198Z",
+            "title": "Laze Body",
+            "caption": "Vareprøve av denne nydelige bodyen i blonder. Bodyen er fôret på kroppen og har meshstoff på armene. Størrelse XS, normal i størrelsen. Kle den sammen med sorte, vide bukser eller et fargerikt skjørt 🖤#secondchance #lazebody #holzweiler",
+            "size": "XS",
+            "category": "wearables.clothes.tops",
+            "askingPrice": 600,
+            "currency": "NOK",
+            "likeCount": 35,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/804/200/300"
+        },
+        {
+            "id": "619ce89a4c7388009ae75f6a",
+            "createdAt": "2021-11-23T13:11:55.195Z",
+            "title": "Hunderfossen Coat",
+            "caption": "Vil du gjøre tidenes kupp på ullkåpe? Da er dette kåpen for deg!\n\nHunderfossen Coat er en vareprøve fra en av Holzweiler´s tidligere kolleksjoner. Kåpen er oversized og har en A-formet fasong. Den rekket til lårene og passer XS-M. Klassisk kåpe som du har sesong etter sesong 🖤 Riktig farge tilsvarer bilde 1 og 2.\n#secondchance #kåpe #holzweiler",
+            "size": "S",
+            "category": "wearables.clothes.jackets",
+            "askingPrice": 1000,
+            "currency": "NOK",
+            "likeCount": 6,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/635/200/300"
+        },
+        {
+            "id": "619ce6fe233f3b00989f366e",
+            "createdAt": "2021-11-23T13:05:03.485Z",
+            "title": "Scurfy Sweater",
+            "caption": "Myk genser i en nydelig kamel farge. Dette er en arkivvare av nydelige Scurfy Sweater som er av 100% lammeull. Denne er størrelse XL og genseren passer til både dame og herre 🌟 Nypris 1800,- #secondchance #ullgenser #holzweiler",
+            "size": "XL",
+            "category": "wearables.clothes.sweaters",
+            "askingPrice": 900,
+            "currency": "NOK",
+            "likeCount": 3,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/272/200/300"
+        },
+        {
+            "id": "619ce56a5bd6a600989a644c",
+            "createdAt": "2021-11-23T12:58:18.850Z",
+            "title": "Hvit genser",
+            "caption": "Unik sample fra en av Holzweiler sine tidligere kolleksjoner. Genseren har en oversized look er er størrelse M. Superkul med skjorte under 🥳 #secondchance #holzweiler",
+            "size": "M",
+            "category": "wearables.clothes.sweaters",
+            "askingPrice": 500,
+            "currency": "NOK",
+            "likeCount": 29,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/774/200/300"
+        },
+        {
+            "id": "619ce409f663f600973c9780",
+            "createdAt": "2021-11-23T12:52:25.453Z",
+            "title": "Armadillo Coat",
+            "caption": "Avslappet vinterjakke med en superkul look! Jakka er størrelse Small men er stor i størrelse og passer S-M. Denne har vi kun én av, so don´t be a 🐌 - give Armadillo en #SecondChance \n\n#holzweiler #ytterjakke #vinterjakke",
+            "size": "S",
+            "category": "wearables.clothes.jackets",
+            "askingPrice": 1100,
+            "currency": "NOK",
+            "likeCount": 27,
+            "liked": false,
+            "sold": false,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/537/200/300"
+        },
+        {
+            "id": "619ba858d99a21009811d6fc",
+            "createdAt": "2021-11-22T14:25:28.689Z",
+            "title": "Wildhorse knit",
+            "caption": "Superdigg oversized knit med nydelig strikket mønster 💙\nGenseren er stor i størrelsen og er superdigg å pakke seg inn på kalde dager! Dette er en arkivvare som fortjener en #secondchance 🥰 Nypris 3400,-\n\n#holzweiler #wildhorseknit #oversizedknit #ullgenser",
+            "size": "XL",
+            "category": "wearables.clothes.sweaters",
+            "askingPrice": 1000,
+            "currency": "NOK",
+            "likeCount": 4,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/325/200/300"
+        },
+        {
+            "id": "619ba8065150e6009921349f",
+            "createdAt": "2021-11-22T14:24:06.946Z",
+            "title": "Wildehorse Knit",
+            "caption": "Superdigg oversized ullgenser med nydelig strikket mønster 💙\nGenseren er stor i størrelsen og er superdigg å pakke seg inn på kalde dager! Dette er en arkivvare som fortjener en #secondchance 🥰 Nypris 3400,-\n\n#holzweiler #wildhorseknit #oversizedknit #ullgenser",
+            "size": "XS",
+            "category": "wearables.clothes.sweaters",
+            "askingPrice": 1000,
+            "currency": "NOK",
+            "likeCount": 20,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/546/200/300"
+        },
+        {
+            "id": "619ba7875150e600992124eb",
+            "createdAt": "2021-11-22T14:22:00.303Z",
+            "title": "Wildhorse Knit",
+            "caption": "Superdigg oversized knit med nydelig strikket mønster 💙\nGenseren er stor i størrelsen og er superdigg å pakke seg inn på kalde dager! Dette er en arkivvare som fortjener en #secondchance 🥰 Nypris 3400,-\n\n#holzweiler #wildhorseknit #oversizedknit #ullgenser",
+            "size": "XS",
+            "category": "wearables.clothes.sweaters",
+            "askingPrice": 1000,
+            "currency": "NOK",
+            "likeCount": 7,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/338/200/300"
+        },
+        {
+            "id": "619ba535af0e5d00998a6a16",
+            "createdAt": "2021-11-22T14:12:05.855Z",
+            "title": "Army Jacket",
+            "caption": "Vi har fått inn en unik arkivvare av denne lekre jakka 🤩 Boxy passform med klassisk kaki farge og praktiske lommer. Dette kommer til å bli din favoritt \"go-to\" jakke! Denne er størrelse Small og er helt normal i størrelsen. #secondchance #holzweiler #bomberjacket",
+            "size": "S",
+            "category": "wearables.clothes.jackets",
+            "askingPrice": 1000,
+            "currency": "NOK",
+            "likeCount": 12,
+            "liked": false,
+            "sold": false,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/544/200/300"
+        },
+        {
+            "id": "619ba42431482700981aaab4",
+            "createdAt": "2021-11-22T14:07:32.763Z",
+            "title": "Noritt Dress",
+            "caption": "Klassisk sort kjole i myk og stretchy kvalitet (80% viskose og 20% nylon). Kjolen former seg fint inntil kroppen og er superkul kombinert med høye boots og ullgenser 🤩Dette er en arkivvare som fortjener en #secondchance Nypris 1800,-\n\n#holzweiler #blackdress",
+            "size": "S",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 900,
+            "currency": "NOK",
+            "likeCount": 26,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/162/200/300"
+        },
+        {
+            "id": "619ba3b539a94700976e293d",
+            "createdAt": "2021-11-22T14:05:42.079Z",
+            "title": "Noritt Dress",
+            "caption": "Klassisk sort kjole i myk og stretchy kvalitet (80% viskose og 20% nylon). Kjolen former seg fint inntil kroppen og er superkul kombinert med høye boots og ullgenser 🤩Dette er en arkivvare som fortjener en #secondchance Nypris 1800,-\n\n#holzweiler #blackdress",
+            "size": "XS",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 900,
+            "currency": "NOK",
+            "likeCount": 4,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/687/200/300"
+        },
+        {
+            "id": "619ba1afd50d2100970ea2c4",
+            "createdAt": "2021-11-22T13:57:04.246Z",
+            "title": "Key Dress",
+            "caption": "Klassisk skjortekjole i lett kvalitet. Dette er en sample som ordinært koster 1800,-. Størrelse XS, men oversized modell så passer XS-S. #secondchance #holzweiler #keydress",
+            "size": "XS",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 700,
+            "currency": "NOK",
+            "likeCount": 20,
+            "liked": false,
+            "sold": false,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/291/200/300"
+        },
+        {
+            "id": "619ba0b8c217c20097a07d84",
+            "createdAt": "2021-11-22T13:52:56.701Z",
+            "title": "Cup Tee",
+            "caption": "Superkul Tee! Dette er en sample fra tidligere kolleksjon. Størrelse Large, normal i størrelsen. Nypris 999,- #tshirt #tee #holzweiler #secondchance",
+            "size": "L",
+            "category": "wearables.clothes.tshirts",
+            "askingPrice": 500,
+            "currency": "NOK",
+            "likeCount": 2,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/112/200/300"
+        },
+        {
+            "id": "5dcd1df92726fc001a01d8b3",
+            "createdAt": "2019-11-14T09:27:21.982Z",
+            "title": "Holzweiler",
+            "caption": "Storm Jacket (Herre). Ordinær pris kr 2800,-. Ingen skader. Dette er en vareprøve. #Holzweiler",
+            "size": "M",
+            "category": "wearables.clothes.jackets",
+            "askingPrice": 800,
+            "currency": "NOK",
+            "likeCount": 68,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/527/200/300"
+        },
+        {
+            "id": "5dcd1d7b2726fc001a01430a",
+            "createdAt": "2019-11-14T09:25:16.306Z",
+            "title": "Holzweiler",
+            "caption": "Lightning Trousers (Herre). Ordinær pris kr 2200,-. Ingen skader. Dette er en vareprøve. #Holzweiler",
+            "size": "L",
+            "category": "wearables.clothes.pants",
+            "askingPrice": 600,
+            "currency": "NOK",
+            "likeCount": 22,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/508/200/300"
+        },
+        {
+            "id": "5c8652f6051a7d0019659264",
+            "createdAt": "2019-03-11T12:22:14.700Z",
+            "title": "Bouquet Blocket",
+            "caption": "BOUQUET Blocked Mini Bag. Ordinær pris kr 2500,-. Ingen skader. Selges som Second Chance fordi dette er forrige sesong. #Holzweiler",
+            "size": "",
+            "category": "wearables.bags.shoulder",
+            "askingPrice": 800,
+            "currency": "NOK",
+            "likeCount": 69,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/824/200/300"
+        },
+        {
+            "id": "5c86528e21adc90019c34c7f",
+            "createdAt": "2019-03-11T12:20:31.201Z",
+            "title": "Hanger Tee (Herre)",
+            "caption": "Hanger tee. Ordinær pris kr 700,-. Ingen skader. Selges som Second Chance fordi dette er forrige sesong. #Holzweiler",
+            "size": "XXL",
+            "category": "wearables.clothes.tshirts",
+            "askingPrice": 200,
+            "currency": "NOK",
+            "likeCount": 33,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/886/200/300"
+        },
+        {
+            "id": "5c86519a117b710019da535b",
+            "createdAt": "2019-03-11T12:16:26.935Z",
+            "title": "Conrad Jeans (Herre)",
+            "caption": "Conrad Jeans (Herre), str. 31. Ordinær pris kr 1800,-. Ingen skader. Selges som Second Chance fordi dette er forrige sesong. #Holzweiler",
+            "size": "M",
+            "category": "wearables.clothes.pants",
+            "askingPrice": 500,
+            "currency": "NOK",
+            "likeCount": 25,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/110/200/300"
+        },
+        {
+            "id": "5c86513021adc90019c1be33",
+            "createdAt": "2019-03-11T12:14:40.843Z",
+            "title": "Jaguar Knit",
+            "caption": "Jaguar Knit. Ordinær pris kr 1600,-. Ingen skader. Selges som Second Chance fordi dette er forrige sesong. #Holzweiler",
+            "size": "S",
+            "category": "wearables.clothes.sweaters",
+            "askingPrice": 400,
+            "currency": "NOK",
+            "likeCount": 47,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/314/200/300"
+        },
+        {
+            "id": "5c827d26c3ed0200187d4d5d",
+            "createdAt": "2019-03-08T14:33:10.643Z",
+            "title": "Streetlove Dress",
+            "caption": "Streetlove dress. Ordinær pris kr 1300,-. Ingen skader. Selges som Second Chance fordi dette er forrige sesong. #Holzweiler",
+            "size": "XS",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 700,
+            "currency": "NOK",
+            "likeCount": 103,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/214/200/300"
+        },
+        {
+            "id": "5c81468fbc898000186c6c14",
+            "createdAt": "2019-03-07T16:28:00.099Z",
+            "title": "Iggy Coat (Herre)",
+            "caption": "Iggy Coat (Herre). Ordinær pris kr 5200,-. Ingen skader. Selges som Second Chance fordi dette er forrige sesong. #Holzweiler",
+            "size": "L",
+            "category": "wearables.clothes.jackets",
+            "askingPrice": 1500,
+            "currency": "NOK",
+            "likeCount": 56,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/656/200/300"
+        },
+        {
+            "id": "5c8145d96f273d0019051175",
+            "createdAt": "2019-03-07T16:24:57.420Z",
+            "title": "Prevailing Coat",
+            "caption": "Prevailing Coat. Ordinær pris kr 3500,-. Vareprøve. #Holzweiler",
+            "size": "S",
+            "category": "wearables.clothes.jackets",
+            "askingPrice": 1900,
+            "currency": "NOK",
+            "likeCount": 133,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/406/200/300"
+        },
+        {
+            "id": "5c814041990ceb001910bb40",
+            "createdAt": "2019-03-07T16:01:06.041Z",
+            "title": "Angular Knit",
+            "caption": "Angular Knit. Ordinær pris kr 3000,-. Dette er en vareprøve. #Holzweiler",
+            "size": "S",
+            "category": "wearables.clothes.sweaters",
+            "askingPrice": 1500,
+            "currency": "NOK",
+            "likeCount": 147,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/75/200/300"
+        },
+        {
+            "id": "5c813e61bc8980001864dc0c",
+            "createdAt": "2019-03-07T15:53:05.761Z",
+            "title": "Oliver Trousers (herre)",
+            "caption": "Oliver Trousers (Herre), str 48. Ordinær pris kr 1500,-. Ingen skader. Selges som Second Chance fordi dette er forrige sesong. #Holzweiler",
+            "size": "M",
+            "category": "wearables.clothes.pants",
+            "askingPrice": 450,
+            "currency": "NOK",
+            "likeCount": 12,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/836/200/300"
+        },
+        {
+            "id": "5c813de3fa1ded0018d9ad2d",
+            "createdAt": "2019-03-07T15:51:00.378Z",
+            "title": "Wildhorse Knit",
+            "caption": "Wildhorse knit Navy. Ordinær pris kr 3400,-. Ingen skader. Selges som Second Chance fordi dette er forrige sesong. #Holzweiler",
+            "size": "S",
+            "category": "wearables.clothes.sweaters",
+            "askingPrice": 900,
+            "currency": "NOK",
+            "likeCount": 140,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/166/200/300"
+        },
+        {
+            "id": "5bffdadc4373bf0018dfd663",
+            "createdAt": "2018-11-29T12:26:05.187Z",
+            "title": "Fru Steen Dress",
+            "caption": "Ordinær pris: 2 500 NOK.\nIngen skader. Selges som Second Chance fordi dette er forrige sesong.\n\n#Holzweiler",
+            "size": "M",
+            "category": "wearables.clothes.dresses",
+            "askingPrice": 700,
+            "currency": "NOK",
+            "likeCount": 162,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/480/200/300"
+        },
+        {
+            "id": "5b3207aa44b0c90015fca87f",
+            "createdAt": "2018-06-26T09:30:19.270Z",
+            "title": "Tobi Trousers",
+            "caption": "Nederste søm på bukseben har løsnet. Dette kan fikses for 50-100 kr hos skredder. I tillegg nuppete ved lomme. \nHolzweiler Tobi Trousers \n1.500 NOK\nSpring/Summer Collection 2018 \nDescription: Cropped trousers\nButtoned closure and zip-flyer\nFitted and made in a comfortable stretch fabric\nModel is 189 cm and is wearing a size 48\nColor: Black\nSize: 50\nComposition: 68% Viscose, 28% Polyamide, 4% Spandex",
+            "size": "L",
+            "category": "wearables.clothes.pants",
+            "askingPrice": 600,
+            "currency": "NOK",
+            "likeCount": 27,
+            "liked": false,
+            "sold": true,
+            "owner": {
+                "id": "5addf35ab461be00157d2e83",
+                "username": "holzweiler",
+                "name": "HOLZWEILER HOLZWEILER",
+                "picture": "https://avatar.iran.liara.run/public"
+            },
+            "primaryImage": "https://picsum.photos/id/491/200/300"
+        }
+    ],
+    "categories": [
+        {
+            "id": "wearables.clothes.jackets",
+            "title": "Jackets",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.jackets/wearables.clothes.jackets_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.sweaters",
+            "title": "Sweaters",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.sweaters/wearables.clothes.sweaters_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.tshirts",
+            "title": "T-shirts",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.tshirts/wearables.clothes.tshirts_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.tops",
+            "title": "Tops",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.tops/wearables.clothes.tops_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.shirts",
+            "title": "Shirts",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.shirts/wearables.clothes.shirts_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.blazers",
+            "title": "Blazers",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.blazers/wearables.clothes.blazers_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.coats",
+            "title": "Coats",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.coats/wearables.clothes.coats_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.blouses",
+            "title": "Blouses",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.blouses/wearables.clothes.blouses_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.pants",
+            "title": "Pants & Jeans",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.pants/wearables.clothes.pants_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.skirts",
+            "title": "Skirts",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.skirts/wearables.clothes.skirts_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.shorts",
+            "title": "Shorts",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.shorts/wearables.clothes.shorts_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.underwear",
+            "title": "Underwear",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.underwear/wearables.clothes.underwear_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.beachwear",
+            "title": "Beachwear",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.beachwear/wearables.clothes.beachwear_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.costumes",
+            "title": "Costumes",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.costumes/wearables.clothes.costumes_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.dresses",
+            "title": "Dresses",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.dresses/wearables.clothes.dresses_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.suits",
+            "title": "Suits",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.suits/wearables.clothes.suits_unselected_1.png"
+        },
+        {
+            "id": "wearables.clothes.jumpsuits",
+            "title": "Jumpsuits",
+            "icon": "https://tise-static.telenorcdn.net/category-images/wearables.clothes.jumpsuits/wearables.clothes.jumpsuits_unselected_1.png"
+        }
+    ]
+}
