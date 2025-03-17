@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		23D58BA92D882FCB00E3B770 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 23D58BA82D882FCB00E3B770 /* GRDB */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		239D51A72D87606900236710 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -66,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D58BA92D882FCB00E3B770 /* GRDB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +163,7 @@
 			);
 			name = voodoDemo;
 			packageProductDependencies = (
+				23D58BA82D882FCB00E3B770 /* GRDB */,
 			);
 			productName = "tise-case";
 			productReference = 23F6C0ED2D351F9400F94DEF /* voodoDemo.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 23F6C0E42D351F9400F94DEF;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				23D58BA72D882FCB00E3B770 /* XCRemoteSwiftPackageReference "GRDB" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 23F6C0EE2D351F9400F94DEF /* Products */;
 			projectDirPath = "";
@@ -568,6 +577,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23D58BA72D882FCB00E3B770 /* XCRemoteSwiftPackageReference "GRDB" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23D58BA82D882FCB00E3B770 /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23D58BA72D882FCB00E3B770 /* XCRemoteSwiftPackageReference "GRDB" */;
+			productName = GRDB;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 23F6C0E52D351F9400F94DEF /* Project object */;
 }

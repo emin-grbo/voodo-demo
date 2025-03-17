@@ -4,7 +4,7 @@ import SwiftUI
 struct voodoDemoApp: App {
   
   @StateObject
-  var observable: MainObservable = MainObservable()
+  var observable: MainObservable = MainObservable(appDatabase: .shared)
   
     var body: some Scene {
         WindowGroup {
