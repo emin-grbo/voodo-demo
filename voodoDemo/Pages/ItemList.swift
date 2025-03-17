@@ -5,28 +5,25 @@ struct ItemList: View {
   @EnvironmentObject
   var observable: MainObservable
   
+  // Defining number of columns needed
   var columns: [GridItem] {
     Array(repeating: GridItem(.flexible()), count:  Constants.columnCount)
   }
   
+  // data
   let listings: [Listing]
   let baseItemSize: CGFloat
   
   var body: some View {
-      NavigationStack {
-        ScrollView {
+    NavigationStack {
+      ScrollView {
         LazyVGrid(columns: columns, spacing: 16) {
           ForEach(listings) { listing in
-//            NavigationLink(value: listing) {
-              Item(listing: listing, baseSize: baseItemSize)
-//            }
+            Item(listing: listing, baseSize: baseItemSize)
           }
         }
       }
       .navigationTitle("Listings")
-//      .navigationDestination(for: Listing.self) { listing in
-//        ItemDetail(item: listing)
-//      }
     }
   }
 }

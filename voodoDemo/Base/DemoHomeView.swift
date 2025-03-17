@@ -14,6 +14,8 @@ struct DemoHomeView: View {
   var body: some View {
     ZStack {
       
+      // MARK: TabView
+      
       TabView(selection: $observable.selectedTab) {
         ItemList(listings: observable.listings,
                  baseItemSize: observable.baseItemSize)
@@ -30,6 +32,8 @@ struct DemoHomeView: View {
           }
       }
       .tint(Color.demoAccent)
+      
+      // MARK: "Fake" add overlay
       
       VStack {
         Spacer()
@@ -54,6 +58,7 @@ struct DemoHomeView: View {
       .padding(.horizontal, UIScreen.main.bounds.width / 3)
       
     }
+    // error alert view
     .alert(isPresented: $observable.isError) {
       Alert(
         title: Text("Error occurred"),
@@ -66,5 +71,5 @@ struct DemoHomeView: View {
 
 #Preview {
   DemoHomeView()
-    .environmentObject(MainObservable())
+    .environmentObject(MainObservable(appDatabase: .empty()))
 }

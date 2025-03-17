@@ -1,5 +1,7 @@
 struct Listing: Identifiable, Codable, Hashable {
+  
   static let databaseTableName = "listing" /// used specifically for GRDB
+  
   let id: String
   let createdAt: String
   let title: String

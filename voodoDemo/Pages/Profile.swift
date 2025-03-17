@@ -13,7 +13,7 @@ struct Profile: View {
   @State
   private var selectedFilter: FilterType = .liked
   
-  let userId: String = Constants.hardcodedOwner.id
+  let userId: Int = Constants.hardcodedOwner.id ?? 0
   
   var filteredItems: [Listing] {
     switch selectedFilter {
@@ -34,7 +34,7 @@ struct Profile: View {
       .pickerStyle(SegmentedPickerStyle())
       .padding()
       
-      // No Items fount
+      // MARK: No Items found
       if filteredItems.isEmpty {
         VStack {
           Text("Nothing to see here chief! 🤷‍♂️")
@@ -42,7 +42,8 @@ struct Profile: View {
         }
         .frame(maxHeight: .infinity)
       } else {
-        // List filtered items
+        
+        // MARK: List filtered items
         List(filteredItems) { item in
           HStack {
             AsyncImage(url: URL(string: item.primaryImage)) { image in
@@ -80,5 +81,5 @@ struct Profile: View {
 
 #Preview {
   Profile()
-    .environmentObject(MainObservable())
+    .environmentObject(MainObservable(appDatabase: .empty()))
 }

@@ -14,7 +14,7 @@ struct Constants {
   )
   // base local owner (due to not having the ability to make a custom one)
   static let hardcodedOwner = Owner(
-    id: "emin.test.id",
+    id: 0,
     username: "localEmin",
     name: "local",
     picture: "https://tise-static.telenorcdn.net/profile-pictures/5addf35ab461be00157d2e83/26ae2353-bdcf-47f2-b579-67f0e9b4b31f"

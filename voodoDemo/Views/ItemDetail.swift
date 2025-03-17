@@ -75,25 +75,6 @@ struct ItemDetail: View {
               .animation(.spring(response: 0.3, dampingFraction: 0.5, blendDuration: 0.3), value: isLiked)
           }
           .buttonStyle(PlainButtonStyle())
-
-          
-//          Button(action: {
-//            withAnimation(.easeInOut(duration: 0.2)) {
-////              Task {
-//                await observable.toggleLiked(for: item.id)
-//                isLiked.toggle()
-////              }
-//            }
-//          }) {
-//            Image(systemName: isLiked ? "heart.fill" : "heart")
-//              .resizable()
-//              .scaledToFit()
-//              .frame(width: 24, height: 24)
-//              .foregroundColor(isLiked ? .demoAccent : .gray)
-//              .scaleEffect(isLiked ? 1.2 : 1.0)
-//              .animation(.spring(response: 0.3, dampingFraction: 0.5, blendDuration: 0.3), value: isLiked)
-//          }
-          
         }
         .padding(.vertical)
         
@@ -103,13 +84,6 @@ struct ItemDetail: View {
     }
     .task {
       isLiked = item.liked
-      print(item)
-    }
-//    .onDisappear {
-//      observable.toggleLiked(for: item.id)
-//    }
-    .onAppear {
-      print("📲\(item.id)")
     }
   }
 }

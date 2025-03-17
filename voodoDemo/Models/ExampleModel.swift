@@ -1,7 +1,7 @@
 import GRDB
 
-// MARK: Example setup of a model that could be used it data storage
-
+// MARK: Example setup of a model that could be used in data storage
+// a placeholder template that cab be used for future "real" models
 final class ExampleModel {
   
   static let databaseTableName = "example_model" /// used specifically for GRDB

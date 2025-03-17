@@ -23,7 +23,8 @@ struct AddItem: View {
           .padding(.top)
           .bold()
         
-        // MARK: Photo selector/preview
+        // MARK: Photo preview
+        
         if let image = selectedImage {
           Image(uiImage: image)
             .resizable()
@@ -32,6 +33,9 @@ struct AddItem: View {
                                         style: .continuous))
             .clipped()
         } else {
+          
+          // MARK: Photo selector/preview
+          
           PhotosPicker(
             selection: $selectedItem,
             matching: .images,
@@ -128,6 +132,7 @@ struct AddItem: View {
           .tint(Color.demoAccent)
         }
         
+        // Add item button
         Button("Add Item") {
           Task {
             await observable.addListing(
@@ -146,6 +151,7 @@ struct AddItem: View {
     }
   }
   
+  // Used to "clean" the view by nullifying all fields
   private func cleanup() {
     title = ""
     detail = ""
@@ -162,5 +168,5 @@ struct AddItem: View {
 
 #Preview {
   AddItem()
-    .environmentObject(MainObservable())
+    .environmentObject(MainObservable(appDatabase: .empty()))
 }
