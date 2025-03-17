@@ -1,7 +1,5 @@
 # Voodo Architecture Demo 📺
 
-[Canva Presentation link](https://www.canva.com/design/DAGcGTBmG5A/uhYLpBXOi5QAE6nWz6dmDw/edit?utm_content=DAGcGTBmG5A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
 ## Architecture
 
 This repo is used to demonstrate a nover architecture, called VODOO (https://swiftuivoodo.com)
@@ -20,32 +18,22 @@ For larger scale apps one would usually have more than one **ObservableObjects**
 
 Another great benefit of the VOODO is the ability to make changes fast. Once the app reaches the level where it needs to be refactored, it can easily be branched into separate Services/ViewModels or replaced with a Coordinator pattern.
 
-In this app I had some major changes to the Data layer in the very end, and thanks to this architecture, it took me just a few minutes to adapt my approach. (It was due to the fact that JSON needed to be modified separately from the original loading method)
-
 ## Networking
-As the case had a .json delivery, I assumed it would be beneficial working with this JSON as if working with an external API. I created **TiseAPI** which had methods similar to a regular networking class, but only if you look at it from the outside.
+I created **DemoAPI** which had methods similar to a regular networking class, but only if you look at it from the outside.
 
 Inside it interacted with the local JSON and stored the changes right on the device.
 
-Observable object was of course completely separate from this logic, allowing an easy switch to Remote Networking layer in the future. 
+Observable object was of course completely separate from this logic, allowing an easy switch to Remote Networking layer in the future.
 
-I wish I had time to define the protocols and make it even more clean, but time got to me :)
+Protocol `VoodoAPI` is to be used as the blueprint for the apps remote networking class.
 
-## The good ✅
-What I believe I did well(details):
-- [X] Liking is only done when user dismisses the screen
-- [X] The way TiseAPI works, allowing for future switch to remote Networking easily
-- [X] Used new API from Apple for PhotoPicker
-- [X] General layout and design
-- [X] Handling sizes
+## Data
+We are using [GRDB](https://github.com/groue/GRDB.swift) for its versatility and ease of use. Only one model is "addede" to the data layer, and only as a guiding template for the future setup.
+`ExampleModel` would be used to define your own future models that would be stored in the data layer.
 
-## The not-as-good ⚠️
-What I wish I had the time to add, but did not:
-- [ ] Add Categories on the top as in the main app
-- [ ] Type-check new entries
-- [ ] Read local photos (I used AsyncImage for JSON images but locally added objects needed a different approach)
-- [ ] Liking system refactor
-- [ ] Ability to delete added items
-- [ ] Sorting
+This layer is of course injected through the `Observable` and could be replaced by any other data system (ex. SwiftData, CoreData)
+
+> [!IMPORTANT]
+> This repo is still under development and will be made into a more re-usable piece of code that can easily be used as a starter kit for your SwiftUI projects.
 
 # Thank you 👋
