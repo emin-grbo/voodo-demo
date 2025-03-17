@@ -1,20 +1,16 @@
-# Tise case
-Hi! If you are seeing this you are probably from Tise, or you are in the wrong corner of GitHub.
-
-I had quite a bit of fun coding this assignment and I have to say some parts caught me off guard a bit 😅.
-For that reason it is not the cleanest approach, but to be fair, I hope it is also expected with limited time resources.
+# Voodo Architecture Demo 📺
 
 [Canva Presentation link](https://www.canva.com/design/DAGcGTBmG5A/uhYLpBXOi5QAE6nWz6dmDw/edit?utm_content=DAGcGTBmG5A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Architecture
 
-Being a proof of concept, I decided to go for a kind of novel architecture called VODOO (https://swiftuivoodo.com)
+This repo is used to demonstrate a nover architecture, called VODOO (https://swiftuivoodo.com)
 
-It is similar to MVVM, but to me it seems more adapted to SwiftUI and very versatile for small projects.
+It is similar to MVVM, but it seems more adapted to SwiftUI and very versatile for small projects.
 
 At its base, it works as follows:
-- ObservableObject is declared as a @StateObject in the root of the app
-- Subsequent Views inherit it as @EnvironmentObject
+- ObservableObject is declared as a `@StateObject` in the root of the app
+- Subsequent Views inherit it as `@EnvironmentObject` ie -> `.environmentObject(observable)`
 - It contains DataObject which is usually CoreData or connected to the Networking layer
 - Observable contains all logic, allowing for "dumb views" (here you can see where similarity with MVVM comes from)
 
