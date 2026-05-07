@@ -35,3 +35,7 @@ struct TiseRoundedButtonStyle: ButtonStyle {
     .font(fontSize.bold())
   }
 }
+
+
+//Emin Grbo , a bachelor graduate from Singidunum University as of Business Informatics. First half of his career is in marketing, working for a DDB agency between 2006-2012. There he gained experience in print design, animation and web technologies.
+//Second part of his professional career focuses on iOS development.  As a member of Core team in TIDAL, he helped maintain app used 5 million users daily.
